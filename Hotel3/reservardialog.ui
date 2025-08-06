@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReservarDialog</class>
+ <widget class="QWidget" name="ReservarDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>609</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>561</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="6" column="1">
+     <widget class="QPushButton" name="pushButtonReservar">
+      <property name="text">
+       <string>RESERVAR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="pushButtonVoltar">
+      <property name="text">
+       <string>VOLTAR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Nome do cliente:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditNomeCliente"/>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Data de check-out:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="dateEditCheckOut"/>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="1" rowspan="4">
+     <widget class="QGroupBox" name="groupBoxDesconto">
+      <property name="title">
+       <string>Tipo de desconto:</string>
+      </property>
+      <widget class="QRadioButton" name="radioButtonVip">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>31</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Vip</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButtonBaixaTemporada">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>58</y>
+         <width>114</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Baixa Temporada</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButtonPromocao">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>85</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Promoção de feriados específicos</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButtonSemDesconto">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>112</y>
+         <width>105</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Sem promoção</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Data de check-in:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="dateEditCheckIn"/>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Tipo de quarto:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_2TipoQuarto">
+        <item>
+         <property name="text">
+          <string>Solteiro</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplo</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Triplo</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Quádruplo</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Casal</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Localidade:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxLocalidade">
+        <item>
+         <property name="text">
+          <string>Jericoacoara</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Canoa Quebrada</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cumbuco</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>CPF:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditCpfCliente"/>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0" rowspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Numero de diarias:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spinBoxDiarias">
+        <property name="minimumSize">
+         <size>
+          <width>73</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

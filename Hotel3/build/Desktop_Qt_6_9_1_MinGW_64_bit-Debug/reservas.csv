@@ -1,0 +1,7 @@
+CheckIn;CheckOut;Cliente;CPF;Localidade;TipoQuarto;Diarias;Desconto;Total;Entrada;Status;Atendente
+01/01/2000;02/01/2000;q;q;Jericoacoara;Solteiro;1;Clientes VIP (10%);180.00;60.00;60.00;60.00
+01/01/2000;01/01/2000;2;2;Jericoacoara;Solteiro;0;Clientes VIP (10%);0.00;0.00;0.00;0.00
+01/01/2000;11/01/2000;tamara;162812t612;Jericoacoara;Casal;10;Clientes VIP (10%);3150.00;1050.00;Pendente;atendente2
+01/01/2000;11/01/2000;tamara;162812t612;Cumbuco;Casal;10;Clientes VIP (10%);3150.00;1050.00;Pendente;atendente2
+03/01/2000;04/01/2000;pkp;jji;Jericoacoara;Duplo;1;Baixa temporada (20%);240.00;80.00;80.00;Pendente
+03/01/2026;18/01/2026;tamara;162812t612;Cumbuco;Casal;15;Clientes VIP (10%);4725.00;1575.00;Pendente;atendente2
